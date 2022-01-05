@@ -1,5 +1,5 @@
 class Solution:
-    def isBipartite(self, graph: List[List[int]]) -> bool:    
+    def isBipartite(self, graph):    
         part = {} # dictionary to record the node is partitioned or not. 
         
         def dfs(current_node):
